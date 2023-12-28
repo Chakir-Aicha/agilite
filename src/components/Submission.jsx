@@ -3,6 +3,7 @@ import Footer from "../components/footer";
 import Header from "../components/navbar";
 const Submission=()=>{
 
+    const backgroundImageUrl = 'https://global.ariseplay.com/amg/www.thisdaylive.com/uploads/ARTIFICIAL-INTELLIGENCE.jpg';
 
 
 return(
@@ -13,17 +14,29 @@ return(
 
 
 <div class="slider-area2">
-            <div class="slider-height2 d-flex align-items-center">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-xl-12">
-                            <div class="hero-cap hero-cap2 text-center">
-                                <h2>Submission</h2>
+<div style={{ height: '580px' }}>
+                    <div className="slider-area position-relative" style={{
+                        backgroundImage: `url(${backgroundImageUrl})`,
+                        backgroundRepeat: 'no-repeat',
+                        color: 'white',
+                        backgroundSize: 'cover',
+                        height: '100%', 
+                        }}>
+                        <div className="slider-active">
+                        <div className="single-slider slider-height d-flex align-items-center">
+                        <div className="container">
+                            <div className="row">
+                            <div className="col-xl-8 col-lg-8 col-md-9 col-sm-10">
+                                <div className="hero__caption2">
+                                <h1 className='CONTACT'>Submission</h1>
+                                </div>
+                            </div>
                             </div>
                         </div>
+                        </div>
                     </div>
-                </div>
-            </div>
+                    </div>
+                    </div>
         </div>
         <br /><br /><br /><br />
             <div className="row justify-content-center">

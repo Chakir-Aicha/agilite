@@ -6,13 +6,14 @@ import Header from "../components/navbar";
 
 // Définissez le composant Registration
 const Registration = () => {
-  const [somme, setSomme] = useState(0);
+  const [somme, setSomme] = useState("somme à payer en DH");
   const [type, setType] = useState("");
   const [pdfFile, setPdfFile] = useState(null);
   const [nom, setNom] = useState("");  
   const [prenom, setPrenom] = useState("");
   const [fonction, setFunction] = useState("");
   const [mail, setMail] = useState("");
+  const backgroundImageUrl = 'https://global.ariseplay.com/amg/www.thisdaylive.com/uploads/ARTIFICIAL-INTELLIGENCE.jpg';
 
   // Fonction pour gérer le changement de la sélection du type
   const handleSelectChange = (event) => {
@@ -102,19 +103,29 @@ const Registration = () => {
       <br />
       <br />
       <br />
-      <div class="slider-area2">
-            <div class="slider-height2 d-flex align-items-center">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-xl-12">
-                            <div class="hero-cap hero-cap2 text-center">
-                                <h2>Registration</h2>
+      <div style={{ height: '580px' }}>
+                    <div className="slider-area position-relative" style={{
+                        backgroundImage: `url(${backgroundImageUrl})`,
+                        backgroundRepeat: 'no-repeat',
+                        color: 'white',
+                        backgroundSize: 'cover',
+                        height: '100%', 
+                        }}>
+                        <div className="slider-active">
+                        <div className="single-slider slider-height d-flex align-items-center">
+                        <div className="container">
+                            <div className="row">
+                            <div className="col-xl-8 col-lg-8 col-md-9 col-sm-10">
+                                <div className="hero__caption2">
+                                <h1 className='CONTACT'>Registration</h1>
+                                </div>
+                            </div>
                             </div>
                         </div>
+                        </div>
                     </div>
-                </div>
-            </div>
-        </div>
+                    </div>
+                    </div>
 <br /><br /><br /><br /><br /><br /><br /><br />
       <form
         className="form-contact contact_form"
@@ -123,23 +134,40 @@ const Registration = () => {
         id="contactForm"
         noValidate="novalidate"
         onSubmit={handleSubmit}
-      >
+      ><div className="row">
+<div className="col-6">
+            <div className="form-group">
+              <input
+                className="form-control"
+                name="prenom"
+                id="prenom"
+                type="text"
+                placeholder="Enter firstName"
+                onChange={(e) => {
+                  setPrenom(e.target.value);
+                }}
+              />
+            </div>
+          </div></div>
+
+
         <div className="row">
-          <div className="col-12">
+          <div className="col-6">
             <div className="form-group">
               <input
                 className="form-control valid"
                 name="name"
                 id="name"
                 type="text"
-                placeholder="Enter your name"
+                placeholder="Enter your family name"
                 onChange={(e) => {
                   setNom(e.target.value);
                 }}
               />
             </div>
           </div>
-          <div className="col-12">
+          <div className="row">
+          <div className="col-6">
             <div className="form-group">
               <input
                 className="form-control valid"
@@ -151,9 +179,9 @@ const Registration = () => {
                   setMail(e.target.value);
                 }}
               />
-            </div>
+            </div></div>
           </div>
-          <div className="col-12">
+          <div className="col-6">
             <div className="form-group">
               <input
                 className="form-control"
@@ -163,19 +191,6 @@ const Registration = () => {
                 placeholder="Enter Function"
                 onChange={(e) => {
                   setFunction(e.target.value);
-                }}
-              />
-            </div>
-          </div><div className="col-12">
-            <div className="form-group">
-              <input
-                className="form-control"
-                name="prenom"
-                id="prenom"
-                type="text"
-                placeholder="Enter firstName"
-                onChange={(e) => {
-                  setPrenom(e.target.value);
                 }}
               />
             </div>
@@ -206,13 +221,14 @@ const Registration = () => {
         </div>
 </div>
         {type !== "participant ordinaire" && type !== "" && (
-          <div className="col-12">
+          <div className="col-6">
             <input type="file" accept=".pdf" onChange={handleFileChange} className="form-control" />
           </div>
         )}
 
         <div></div>
         <div className="form-group mt-3">
+     
           <button type="submit" className="button button-contactForm boxed-btn" style={{textAlign:"center"}}>
             Send
           </button>
