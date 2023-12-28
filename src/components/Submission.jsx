@@ -10,9 +10,7 @@ return(
 
 <>
 <Header></Header>
-<br /><br /><br /><br /><br />
-
-
+<br /><br />
 <div class="slider-area2">
 <div style={{ height: '580px' }}>
                     <div className="slider-area position-relative" style={{
