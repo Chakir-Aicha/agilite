@@ -53,15 +53,15 @@ const Contact = () => {
                                         </div>
 
                                         <div className="icon-container">
-                                            <p className='iconContact'><i className="fas fa-home mr-3"></i><span className='ecrit1'>Adresse:</span>
+                                            <p className='iconContact'><i className="fas fa-home mr-3"></i><span className='ecrit1'>Adress :</span>
                                             05 lot bouizgaren, Rte de Safi, Marrakech 40000
                                             </p>
                                             <br />
                                             <p className='iconContact'><i className="fas fa-envelope mr-3"></i>
-                                                <span className='ecrit2'>Email:</span> iwssai23@sciencesconf.org<br />
+                                                <span className='ecrit2'>Email :</span> iwssai23@sciencesconf.org<br />
                                                 </p><br />
-                                            <p className='iconContact'><i className="fas fa-phone mr-3"></i><span className='ecrit3'>Téléphone:</span> +212 695255905</p><br />
-                                            <p className='iconContact'><i className="fas fa-at mr-3"></i><span className='ecrit4'>Réseaux:</span>
+                                            <p className='iconContact'><i className="fas fa-phone mr-3"></i><span className='ecrit3'>Phone :</span> +212 695255905</p><br />
+                                            <p className='iconContact'><i className="fas fa-at mr-3"></i><span className='ecrit4'>Network :</span>
                                                 <div className='iconsContact'>
                                                     <a href="" className="text-dark me-4">
                                                         <i className="fab fa-facebook-f" style={{ color: "blue" }}></i>
