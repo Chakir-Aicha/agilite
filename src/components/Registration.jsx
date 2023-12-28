@@ -52,12 +52,12 @@ const Registration = () => {
         const data = {
            
          
-            nom: nom,
-            prenom: prenom, 
-             email: mail,
-            fonction: fonction,
+            "nom": nom,
+            "prenom": prenom, 
+             "email": mail,
+            "fonction": fonction,
           
-            somme: somme
+           "somme": somme
           };
 
 
@@ -74,17 +74,16 @@ const Registration = () => {
       if (pdfFile) {
         formData.append("file", pdfFile);
       }
+    const response2 = await Axios.post("http://localhost:8080/participant/add",data
+
+      );
 
       const response = await Axios.post("http://localhost:8080/upload", formData, {
         headers: {
           "Content-Type": "multipart/form-data",
         },
       });
-      const response2 = await Axios.post("http://localhost:8080/participant/add",data, {
-        headers: {
-          "Content-Type": "multipart/form-data",
-        },
-      });
+  
 
       console.log(response.data);
       console.log(response2.data);
