@@ -6,7 +6,7 @@ const Topics = () => {
             <div className="row">
 			    <div className="col-lg-12">
                     <div className="section-title">
-                        <h1>Topics</h1>
+                        <h1>TOPICS</h1>
                     </div>
                 </div>
                 <div className="col-md-4">

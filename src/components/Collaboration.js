@@ -10,7 +10,7 @@ const Collaboration = () => {
             <div className="row">
                 <div className="col-lg-12">
                     <div className="section-title">
-                        <h1>Collaboration</h1>
+                        <h1>COLLABORATION</h1>
                     </div>
                 </div>
             </div>

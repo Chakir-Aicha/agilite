@@ -99,7 +99,7 @@ const Registration = () => {
           backgroundRepeat: 'no-repeat',
           color: 'white',
           backgroundSize: 'cover',
-          height: '100vh',
+          height: '60vh',
           display: 'flex',
           justifyContent: 'center',
           alignItems: 'center',
@@ -115,6 +115,7 @@ const Registration = () => {
           </div>
         </div>
       </div>
+         
       <div className="container mt-5">
         <form
           className="form-contact contact_form"

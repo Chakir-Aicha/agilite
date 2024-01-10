@@ -6,6 +6,8 @@ import Contact from './pages/Contact';
 import committees from './pages/committees';
 import Registration from './components/Registration';
 import Submission from './components/Submission';
+import SpeakersTable from './components/SpeakersTable';
+import Venue from './components/Venue';
 function App() {
   return (
     <div>
@@ -17,6 +19,9 @@ function App() {
            <Route path='/committees' Component={committees}></Route>
            <Route path='/submission' Component={Submission}></Route>
            <Route path='/Regstration' Component={Registration}></Route>
+           <Route path='/keynotespeakers' Component={SpeakersTable}></Route>
+           <Route path='/venue' Component={Venue}></Route>
+           
          </Routes>
       </Router>
     </div>

@@ -12,29 +12,30 @@ return(
 <Header></Header>
 <br /><br />
 <div class="slider-area2">
-<div style={{ height: '580px' }}>
-                    <div className="slider-area position-relative" style={{
-                        backgroundImage: `url(${backgroundImageUrl})`,
-                        backgroundRepeat: 'no-repeat',
-                        color: 'white',
-                        backgroundSize: 'cover',
-                        height: '100%', 
-                        }}>
-                        <div className="slider-active">
-                        <div className="single-slider slider-height d-flex align-items-center">
-                        <div className="container">
-                            <div className="row">
-                            <div className="col-xl-8 col-lg-8 col-md-9 col-sm-10">
-                                <div className="hero__caption2">
-                                <h1 className='CONTACT'>Submission</h1>
-                                </div>
-                            </div>
-                            </div>
-                        </div>
-                        </div>
-                    </div>
-                    </div>
-                    </div>
+<div
+        className="slider-area position-relative"
+        style={{
+          backgroundImage: `url(${backgroundImageUrl})`,
+          backgroundRepeat: 'no-repeat',
+          color: 'white',
+          backgroundSize: 'cover',
+          height: '60vh',
+          display: 'flex',
+          justifyContent: 'center',
+          alignItems: 'center',
+        }}
+      >
+        <div className="container">
+          <div className="row">
+            <div className="col-xl-8 col-lg-8 col-md-9 col-sm-10">
+              <div className="hero__caption2">
+                <h1 className='registration'>Submission</h1>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+         
         </div>
         <br /><br /><br /><br />
             <div className="row justify-content-center">
