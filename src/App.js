@@ -8,6 +8,7 @@ import Registration from './components/Registration';
 import Submission from './components/Submission';
 import SpeakersTable from './components/SpeakersTable';
 import Venue from './components/Venue';
+import Shedule from './components/Shedule';
 function App() {
   return (
     <div>
@@ -21,6 +22,7 @@ function App() {
            <Route path='/Regstration' Component={Registration}></Route>
            <Route path='/keynotespeakers' Component={SpeakersTable}></Route>
            <Route path='/venue' Component={Venue}></Route>
+           <Route path='/program' Component={Shedule}></Route>
            
          </Routes>
       </Router>

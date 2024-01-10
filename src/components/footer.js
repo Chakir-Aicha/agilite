@@ -1,8 +1,15 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import '@fortawesome/fontawesome-free/css/all.min.css';
+import { Link } from 'react-router-dom';
 
 const Footer = () => {
+  const scrollToTop = () => {
+    window.scrollTo({
+      top: 0,
+      behavior: 'smooth'
+    });
+  };
   return (
     <footer className="text-center text-lg-start bg-body-tertiary text-muted">
       <section className="d-flex justify-content-center justify-content-lg-between p-4 border-bottom" style={{ backgroundColor: '#2e0e8c' ,fontFamily: "'Roboto',sans-serif", fontWeight: 'normal',fontStyle: 'normal'}}>
@@ -50,19 +57,22 @@ const Footer = () => {
                 Useful links
               </h5>
               <p>
-                <a href="#!" className="text-reset">Soumission</a>
+                <Link to="/submission" className="text-reset" onClick={scrollToTop}>Soumission</Link>
+
               </p>
               <p>
-                <a href="#!" className="text-reset">Contact</a>
+              <Link to="/contact" className="text-reset" onClick={scrollToTop}>Contact</Link>
               </p>
               <p>
-                <a href="#!" className="text-reset">Program</a>
+              <Link to="/program" className="text-reset" onClick={scrollToTop}>Program</Link>
               </p>
               <p>
-                <a href="#!" className="text-reset">Speakers</a>
+              <Link to="/keynotespeakers" className="text-reset" onClick={scrollToTop}>Speakers</Link>
+   
               </p>
               <p>
-                <a href="#!" className="text-reset">Venue</a>
+              <Link to="/venue" className="text-reset" onClick={scrollToTop}>Venue</Link>
+
               </p>
             </div>
 

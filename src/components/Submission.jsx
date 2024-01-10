@@ -45,7 +45,7 @@ return(
 
 <p>
 
-    Papers for ISSAI 2023 should only be submitted via the Online EasyChair Link below as PDF files on  <a href="/register"><span style={{color: "#CC2E2E" , fontFamily: "var( --e-global-typography-text-font-family ), Sans-serif", fontSize: "15px", fontWeight: "var( --e-global-typography-text-font-weight )"}}>the Registration Page </span></a>
+    Papers for ISSAI 2023 should only be submitted via the Online EasyChair Link below as PDF files on  <link rel="stylesheet" href="" /> <a href="/Regstration"><span style={{color: "#CC2E2E" , fontFamily: "var( --e-global-typography-text-font-family ), Sans-serif", fontSize: "15px", fontWeight: "var( --e-global-typography-text-font-weight )"}}>the Registration Page </span></a>
 
 </p>
 

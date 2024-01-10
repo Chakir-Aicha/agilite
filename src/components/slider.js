@@ -3,7 +3,7 @@
 import React, { useState, useEffect } from 'react';
 import { Carousel } from 'react-bootstrap';
 import '../css/slider.css';
-
+import { Link } from 'react-router-dom'; 
 const CarouselSlider = () => {
   const backgroundImageUrls = [
     'https://global.ariseplay.com/amg/www.thisdaylive.com/uploads/ARTIFICIAL-INTELLIGENCE.jpg',
@@ -65,7 +65,7 @@ const CarouselSlider = () => {
                     <div className="col-xl-8 col-lg-8 col-md-9 col-sm-10">
                       <div className="hero__caption1">
                         <h1 className='titre'>{typedTitle}</h1>
-                        <div className='btn btnn1'>Contact us</div>
+                        <div className='btn btnn1' > <Link to="/contact"  >Contact us</Link> </div>
                       </div>
                     </div>
                   </div>

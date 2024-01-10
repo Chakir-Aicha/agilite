@@ -148,8 +148,8 @@ ol {
 .price-item .tr-tag,
 .schedule-tab .nav-tabs .nav-item .nav-link.active,
 .site-btn {
-	background-image: -o-linear-gradient(330deg, #0581bf 0%, #0e06ab 100%), -o-linear-gradient(330deg, #657c86 0%, #3516e5 100%);
-	background-image: linear-gradient(120deg, #0581bf 0%, #0e06ab 100%), linear-gradient(120deg, #ee8425 0%, #f9488b 100%);
+	background-image: rgb(46, 14, 140);
+	color: #000;
 }
 
 /* buttons */
@@ -1348,7 +1348,7 @@ ol {
 
 .schedule-table-tab .nav-tabs .nav-item .nav-link.active {
 	border-color: #e7e7e8;
-	color: #ffffff;
+	color: rgb(46, 14, 140);
 }
 
 .schedule-table-tab .schedule-table-content table {
@@ -1374,7 +1374,7 @@ ol {
 }
 
 .schedule-table-tab .schedule-table-content table thead tr th span {
-	color: #f5523b;
+	color: rgb(46, 14, 140);
 	font-size: 16px;
 	display: block;
 	font-weight: 400;
@@ -1408,7 +1408,7 @@ ol {
 
 .schedule-table-tab .schedule-table-content table tbody tr td.event-time {
 	width: 140px;
-	color: #f44949;
+	color: rgb(46, 14, 140);
 	font-size: 24px;
 	font-weight: 600;
 }
