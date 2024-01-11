@@ -17,7 +17,7 @@ function Committees() {
           backgroundRepeat: 'no-repeat',
           color: 'white',
           backgroundSize: 'cover',
-          height: '60vh',
+          height: '90vh',
           display: 'flex',
           justifyContent: 'center',
           alignItems: 'center',
@@ -27,7 +27,7 @@ function Committees() {
           <div className="row">
             <div className="col-xl-8 col-lg-8 col-md-9 col-sm-10">
               <div className="hero__caption2">
-                <h1 className='registration'>Commities</h1>
+                <h1 className='registration'>Committees</h1>
               </div>
             </div>
           </div>
@@ -233,7 +233,6 @@ function Committees() {
         <div className="col-md-3">
           <div className="card">
             <div className="card-body">
-              
               <p className="card-text">
               <div className='scienticCommittees'>
                 <p className="nom_professeur" style={{fontSize:"15px"}}> * A. HAKIM (FSTG, Marrakech, Morocco)</p>

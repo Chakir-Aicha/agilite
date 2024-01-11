@@ -19,18 +19,18 @@ const Footer = () => {
         </div>
 
         <div style={{color:'white'}}>
-          <a href="#" className="me-4 text-reset" >
+          <Link to="#" className="me-4 text-reset" >
             <i className="fab fa-facebook-f"></i>
-          </a>
-          <a href="#" className="me-4 text-reset">
+          </Link>
+          <Link to="#" className="me-4 text-reset">
             <i className="fab fa-twitter"></i>
-          </a>
-          <a href="#" className="me-4 text-reset">
+          </Link>
+          <Link to="#" className="me-4 text-reset">
             <i className="fab fa-instagram"></i>
-          </a>
-          <a href="#" className="me-4 text-reset">
+          </Link>
+          <Link to="#" className="me-4 text-reset">
             <i className="fab fa-linkedin"></i>
-          </a>
+          </Link>
         </div>
 
       </section>
@@ -57,21 +57,21 @@ const Footer = () => {
                 Useful links
               </h5>
               <p>
-                <Link to="/submission" className="text-reset" onClick={scrollToTop}>Soumission</Link>
+                <Link to="/submission" className="text-reset" >Soumission</Link>
 
               </p>
               <p>
-              <Link to="/contact" className="text-reset" onClick={scrollToTop}>Contact</Link>
+              <Link to="/contact" className="text-reset" >Contact</Link>
               </p>
               <p>
-              <Link to="/program" className="text-reset" onClick={scrollToTop}>Program</Link>
+              <Link to="/program" className="text-reset" >Program</Link>
               </p>
               <p>
-              <Link to="/keynotespeakers" className="text-reset" onClick={scrollToTop}>Speakers</Link>
+              <Link to="/keynotespeakers" className="text-reset" >Speakers</Link>
    
               </p>
               <p>
-              <Link to="/venue" className="text-reset" onClick={scrollToTop}>Venue</Link>
+              <Link to="/venue" className="text-reset" >Venue</Link>
 
               </p>
             </div>

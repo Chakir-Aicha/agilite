@@ -6,15 +6,11 @@ const Shedule = () => {
     const backgroundImageUrl = 'https://global.ariseplay.com/amg/www.thisdaylive.com/uploads/ARTIFICIAL-INTELLIGENCE.jpg';
 
     return ( 
-
-
-
         <>
-        
-        
         <Header />
  
-   
+     <br/>
+     <br/>
         <div
         className="slider-area position-relative"
         style={{
@@ -22,7 +18,7 @@ const Shedule = () => {
           backgroundRepeat: 'no-repeat',
           color: 'white',
           backgroundSize: 'cover',
-          height: '60vh',
+          height: '90vh',
           display: 'flex',
           justifyContent: 'center',
           alignItems: 'center',
@@ -46,19 +42,19 @@ const Shedule = () => {
                     <div class="schedule-table-tab">
                         <ul class="nav nav-tabs" role="tablist">
                         <li class="nav-item">
-                                <a class="nav-link hovr-bg" data-toggle="tab" href="#tabs-2" role="tab" >Marketing</a>
+                                <a class="nav-link hovr-bg" data-toggle="tab" href="#tabs-2" role="tab" style={{backgroundColor: "#864AF9"}} >Marketing</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link hovr-bg" data-toggle="tab" href="#tabs-2" role="tab" >Business</a>
+                                <a class="nav-link hovr-bg" data-toggle="tab" href="#tabs-5" role="tab" style={{backgroundColor: "#864AF9"}} >Business</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link hovr-bg" data-toggle="tab" href="#tabs-3" role="tab" >Technology</a>
+                                <a class="nav-link hovr-bg" data-toggle="tab" href="#tabs-3" role="tab" style={{backgroundColor: "#864AF9"}} >Technology</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link hovr-bg" data-toggle="tab" href="#tabs-4" role="tab" >Experience</a>
+                                <a class="nav-link hovr-bg" data-toggle="tab" href="#tabs-4" role="tab" style={{backgroundColor: "#864AF9"}}>Experience</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link hovr-bg" data-toggle="tab" href="#tabs-5" role="tab" >Event</a>
+                                <a class="nav-link hovr-bg" data-toggle="tab" href="#tabs-5" role="tab" style={{backgroundColor: "#864AF9"}}>Event</a>
                             </li>
                         </ul>
                         <div class="tab-content">
@@ -68,19 +64,19 @@ const Shedule = () => {
                                         <thead>
                                             <tr>
                                                 <th></th>
-                                                <th>
+                                                <th  style={{backgroundColor: "#FDF7E4"}}>
                                                     <strong>Day 1</strong>
                                                     <span>May 09, 2019</span>
                                                 </th>
-                                                <th>
+                                                <th  style={{backgroundColor: "#FDF7E4"}}>
                                                     <strong>Day 2</strong>
                                                     <span>May 11, 2019</span>
                                                 </th>
-                                                <th>
+                                                <th  style={{backgroundColor: "#FDF7E4"}}>
                                                     <strong>Day 3</strong>
                                                     <span>May 12, 2019</span>
                                                 </th>
-                                                <th>
+                                                <th  style={{backgroundColor: "#FDF7E4"}}>
                                                     <strong>Day 4</strong>
                                                     <span>May 14, 2019</span>
                                                 </th>
@@ -88,7 +84,7 @@ const Shedule = () => {
                                         </thead>
                                         <tbody>
                                             <tr>
-                                                <td class="event-time">10:00</td>
+                                                <td class="event-time" style={{backgroundColor: "#FDF7E4"}}>10:00</td>
                                                 <td class="break hovr-bg">
                                                     <h5>Coffee Break</h5>
                                                 </td>
@@ -103,7 +99,7 @@ const Shedule = () => {
                                                 </td>
                                             </tr>
                                             <tr>
-                                                <td class="event-time">11:00</td>
+                                                <td class="event-time"  style={{backgroundColor: "#FDF7E4"}}>11:00</td>
                                                 <td class="hovr-bg">
                                                     <h5>Talking To Life</h5>
                                                     <p><span>By</span> John Smith</p>
@@ -122,7 +118,7 @@ const Shedule = () => {
                                                 </td>
                                             </tr>
                                             <tr>
-                                                <td class="event-time">13:30</td>
+                                                <td class="event-time" style={{backgroundColor: "#FDF7E4"}}>13:30</td>
                                                 <td class="hovr-bg">
                                                     <h5>Meet Up Marketing</h5>
                                                     <p><span>By</span> Mc Cage</p>
@@ -141,7 +137,7 @@ const Shedule = () => {
                                                 </td>
                                             </tr>
                                             <tr>
-                                                <td class="event-time">18:00</td>
+                                                <td class="event-time"  style={{backgroundColor: "#FDF7E4"}}>18:00</td>
                                                 <td class="hovr-bg">
                                                     <h5>Technology Future</h5>
                                                     <p><span>By</span> Thomas Munoz</p>
@@ -169,19 +165,19 @@ const Shedule = () => {
                                         <thead>
                                             <tr>
                                                 <th></th>
-                                                <th>
+                                                <th style={{backgroundColor: "#FDF7E4"}}>
                                                     <strong>Day 1</strong>
                                                     <span>May 09, 2019</span>
                                                 </th>
-                                                <th>
+                                                <th style={{backgroundColor: "#FDF7E4"}}>
                                                     <strong>Day 2</strong>
                                                     <span>May 11, 2019</span>
                                                 </th>
-                                                <th>
+                                                <th style={{backgroundColor: "#FDF7E4"}}>
                                                     <strong>Day 3</strong>
                                                     <span>May 12, 2019</span>
                                                 </th>
-                                                <th>
+                                                <th style={{backgroundColor: "#FDF7E4"}}>
                                                     <strong>Day 4</strong>
                                                     <span>May 14, 2019</span>
                                                 </th>
@@ -189,7 +185,7 @@ const Shedule = () => {
                                         </thead>
                                         <tbody>
                                             <tr>
-                                                <td class="event-time">15:00</td>
+                                                <td class="event-time" style={{backgroundColor: "#FDF7E4"}}>15:00</td>
                                                 <td class="break hovr-bg">
                                                     <h5>Coffee Break</h5>
                                                 </td>
@@ -204,7 +200,7 @@ const Shedule = () => {
                                                 </td>
                                             </tr>
                                             <tr>
-                                                <td class="event-time">16:00</td>
+                                                <td class="event-time" style={{backgroundColor: "#FDF7E4"}}>16:00</td>
                                                 <td class="hovr-bg">
                                                     <h5>Talking To Life</h5>
                                                     <p><span>By</span> John Smith</p>
@@ -223,7 +219,7 @@ const Shedule = () => {
                                                 </td>
                                             </tr>
                                             <tr>
-                                                <td class="event-time">17:30</td>
+                                                <td class="event-time" style={{backgroundColor: "#FDF7E4"}}>17:30</td>
                                                 <td class="hovr-bg">
                                                     <h5>Meet Up Marketing</h5>
                                                     <p><span>By</span> Mc Cage</p>
@@ -242,7 +238,7 @@ const Shedule = () => {
                                                 </td>
                                             </tr>
                                             <tr>
-                                                <td class="event-time">18:00</td>
+                                                <td class="event-time" style={{backgroundColor: "#FDF7E4"}}>18:00</td>
                                                 <td class="hovr-bg">
                                                     <h5>Technology Future</h5>
                                                     <p><span>By</span> Thomas Munoz</p>
@@ -270,19 +266,19 @@ const Shedule = () => {
                                         <thead>
                                             <tr>
                                                 <th></th>
-                                                <th>
+                                                <th style={{backgroundColor: "#FDF7E4"}}>
                                                     <strong>Day 1</strong>
                                                     <span>May 09, 2019</span>
                                                 </th>
-                                                <th>
+                                                <th style={{backgroundColor: "#FDF7E4"}}>
                                                     <strong>Day 2</strong>
                                                     <span>May 11, 2019</span>
                                                 </th>
-                                                <th>
+                                                <th style={{backgroundColor: "#FDF7E4"}}>
                                                     <strong>Day 3</strong>
                                                     <span>May 12, 2019</span>
                                                 </th>
-                                                <th>
+                                                <th style={{backgroundColor: "#FDF7E4"}}>
                                                     <strong>Day 4</strong>
                                                     <span>May 14, 2019</span>
                                                 </th>
@@ -290,7 +286,7 @@ const Shedule = () => {
                                         </thead>
                                         <tbody>
                                             <tr>
-                                                <td class="event-time">16:00</td>
+                                                <td class="event-time" style={{backgroundColor: "#FDF7E4"}}>16:00</td>
                                                 <td class="break hovr-bg">
                                                     <h5>Coffee Break</h5>
                                                 </td>
@@ -305,7 +301,7 @@ const Shedule = () => {
                                                 </td>
                                             </tr>
                                             <tr>
-                                                <td class="event-time">17:00</td>
+                                                <td class="event-time" style={{backgroundColor: "#FDF7E4"}}>17:00</td>
                                                 <td class="hovr-bg">
                                                     <h5>Talking To Life</h5>
                                                     <p><span>By</span> John Smith</p>
@@ -324,7 +320,7 @@ const Shedule = () => {
                                                 </td>
                                             </tr>
                                             <tr>
-                                                <td class="event-time">18:30</td>
+                                                <td class="event-time" style={{backgroundColor: "#FDF7E4"}}>18:30</td>
                                                 <td class="hovr-bg">
                                                     <h5>Meet Up Marketing</h5>
                                                     <p><span>By</span> Mc Cage</p>
@@ -343,7 +339,7 @@ const Shedule = () => {
                                                 </td>
                                             </tr>
                                             <tr>
-                                                <td class="event-time">19:00</td>
+                                                <td class="event-time" style={{backgroundColor: "#FDF7E4"}}>19:00</td>
                                                 <td class="hovr-bg">
                                                     <h5>Technology Future</h5>
                                                     <p><span>By</span> Thomas Munoz</p>
@@ -371,19 +367,19 @@ const Shedule = () => {
                                         <thead>
                                             <tr>
                                                 <th></th>
-                                                <th>
+                                                <th style={{backgroundColor: "#FDF7E4"}}>
                                                     <strong>Day 1</strong>
                                                     <span>May 09, 2019</span>
                                                 </th>
-                                                <th>
+                                                <th style={{backgroundColor: "#FDF7E4"}}>
                                                     <strong>Day 2</strong>
                                                     <span>May 11, 2019</span>
                                                 </th>
-                                                <th>
+                                                <th style={{backgroundColor: "#FDF7E4"}}>
                                                     <strong>Day 3</strong>
                                                     <span>May 12, 2019</span>
                                                 </th>
-                                                <th>
+                                                <th style={{backgroundColor: "#FDF7E4"}}>
                                                     <strong>Day 4</strong>
                                                     <span>May 14, 2019</span>
                                                 </th>
@@ -391,7 +387,7 @@ const Shedule = () => {
                                         </thead>
                                         <tbody>
                                             <tr>
-                                                <td class="event-time">09:00</td>
+                                                <td class="event-time" style={{backgroundColor: "#FDF7E4"}}>09:00</td>
                                                 <td class="break hovr-bg">
                                                     <h5>Coffee Break</h5>
                                                 </td>
@@ -406,7 +402,7 @@ const Shedule = () => {
                                                 </td>
                                             </tr>
                                             <tr>
-                                                <td class="event-time">10:00</td>
+                                                <td class="event-time"style={{backgroundColor: "#FDF7E4"}}>10:00</td>
                                                 <td class="hovr-bg">
                                                     <h5>Talking To Life</h5>
                                                     <p><span>By</span> John Smith</p>
@@ -425,7 +421,7 @@ const Shedule = () => {
                                                 </td>
                                             </tr>
                                             <tr>
-                                                <td class="event-time">13:30</td>
+                                                <td class="event-time" style={{backgroundColor: "#FDF7E4"}}>13:30</td>
                                                 <td class="hovr-bg">
                                                     <h5>Meet Up Marketing</h5>
                                                     <p><span>By</span> Mc Cage</p>
@@ -444,7 +440,7 @@ const Shedule = () => {
                                                 </td>
                                             </tr>
                                             <tr>
-                                                <td class="event-time">14:00</td>
+                                                <td class="event-time" style={{backgroundColor: "#FDF7E4"}}>14:00</td>
                                                 <td class="hovr-bg">
                                                     <h5>Technology Future</h5>
                                                     <p><span>By</span> Thomas Munoz</p>
@@ -472,19 +468,19 @@ const Shedule = () => {
                                         <thead>
                                             <tr>
                                                 <th></th>
-                                                <th>
+                                                <th style={{backgroundColor: "#FDF7E4"}}>
                                                     <strong>Day 1</strong>
                                                     <span>May 09, 2019</span>
                                                 </th>
-                                                <th>
+                                                <th style={{backgroundColor: "#FDF7E4"}}>
                                                     <strong>Day 2</strong>
                                                     <span>May 11, 2019</span>
                                                 </th>
-                                                <th>
+                                                <th style={{backgroundColor: "#FDF7E4"}}>
                                                     <strong>Day 3</strong>
                                                     <span>May 12, 2019</span>
                                                 </th>
-                                                <th>
+                                                <th style={{backgroundColor: "#FDF7E4"}}>
                                                     <strong>Day 4</strong>
                                                     <span>May 14, 2019</span>
                                                 </th>
@@ -492,7 +488,7 @@ const Shedule = () => {
                                         </thead>
                                         <tbody>
                                             <tr>
-                                                <td class="event-time">20:00</td>
+                                                <td class="event-time" style={{backgroundColor: "#FDF7E4"}}>20:00</td>
                                                 <td class="break hovr-bg">
                                                     <h5>Coffee Break</h5>
                                                 </td>
@@ -507,7 +503,7 @@ const Shedule = () => {
                                                 </td>
                                             </tr>
                                             <tr>
-                                                <td class="event-time">22:00</td>
+                                                <td class="event-time" style={{backgroundColor: "#FDF7E4"}}>22:00</td>
                                                 <td class="hovr-bg">
                                                     <h5>Talking To Life</h5>
                                                     <p><span>By</span> John Smith</p>
@@ -526,7 +522,7 @@ const Shedule = () => {
                                                 </td>
                                             </tr>
                                             <tr>
-                                                <td class="event-time">23:30</td>
+                                                <td class="event-time" style={{backgroundColor: "#FDF7E4"}}>23:30</td>
                                                 <td class="hovr-bg">
                                                     <h5>Meet Up Marketing</h5>
                                                     <p><span>By</span> Mc Cage</p>
@@ -545,7 +541,7 @@ const Shedule = () => {
                                                 </td>
                                             </tr>
                                             <tr>
-                                                <td class="event-time">24:00</td>
+                                                <td class="event-time" style={{backgroundColor: "#FDF7E4"}}>24:00</td>
                                                 <td class="hovr-bg">
                                                     <h5>Technology Future</h5>
                                                     <p><span>By</span> Thomas Munoz</p>

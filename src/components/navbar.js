@@ -3,9 +3,6 @@ import { Link, useLocation } from 'react-router-dom';
 import { Navbar, Nav, Container } from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import "../css/navbar.css";
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faSearch } from '@fortawesome/free-solid-svg-icons';
-
 const Header = () => {
   return (
     <header className='header fixed-top'>
@@ -30,11 +27,7 @@ const Header = () => {
                 <NavItem path="/program" text="program" />
                 <NavItem path="/venue" text="venue" />
                 <NavItem path="/Contact" text="Contact" />
-                <div className="header-right-btn ml-30">
-                  <Link to="/search" className="btn header-btn">
-                    <FontAwesomeIcon icon={faSearch} />
-                  </Link>
-                </div>
+                
               </Nav>
             </Navbar.Collapse>
           </Container>

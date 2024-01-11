@@ -13,6 +13,7 @@ const SpeakersTable = () => {
 <>
 
 <Header />
+
 <div
         className="slider-area position-relative"
         style={{
@@ -20,7 +21,7 @@ const SpeakersTable = () => {
           backgroundRepeat: 'no-repeat',
           color: 'white',
           backgroundSize: 'cover',
-          height: '60vh',
+          height: '90vh',
           display: 'flex',
           justifyContent: 'center',
           alignItems: 'center',
@@ -37,12 +38,15 @@ const SpeakersTable = () => {
         </div>
       </div>
     <section class="team-area pt-180 pb-100">
+        <p style={{fontSize: "60px" , marginLeft:"500px",marginBottom:"70px", fontFamily:"serial", fontWeight:"500"
+
+}}>Our speakers  :</p>
         <div class="container">
             <div class="row">
                 <div class="col-lg-3 col-md-4 col-sm-6">
                     <div class="single-team mb-30">
                         <div class="team-img">
-                            <img src="assets/img/gallery/team1.png" alt="" />
+                            <img src="assets/img/gallery/team1.png" alt="" style={{ borderRadius: "50%"}} />
                             <ul class="team-social">
                                 <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
                                 <li><a href="#"><i class="fab fa-twitter"></i></a></li>
@@ -50,15 +54,15 @@ const SpeakersTable = () => {
                             </ul>
                         </div>
                         <div class="team-caption team-caption2">
-                            <h3><a href="#">Jesscia brown</a></h3>
-                            <p> Co Founder</p>
+                            <h3 style={{color:"black"}}>Jesscia brown</h3>
+                            <p style={{color:"black"}}> Professeur </p>
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-4 col-sm-6">
                     <div class="single-team mb-30">
                         <div class="team-img">
-                            <img src="assets/img/gallery/team2.png" alt="" />
+                            <img src="assets/img/gallery/team2.png" alt="" style={{ borderRadius: "50%"}}/>
                             <ul class="team-social">
                                 <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
                                 <li><a href="#"><i class="fab fa-twitter"></i></a></li>
@@ -66,15 +70,15 @@ const SpeakersTable = () => {
                             </ul>
                         </div>
                         <div class="team-caption team-caption2">
-                            <h3><a href="#">Jesscia brown</a></h3>
-                            <p> Co Founder</p>
+                            <h3 style={{color:"black"}}>Jesscia brown</h3>
+                            <p style={{color:"black"}}> Co Founder</p>
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-4 col-sm-6">
                     <div class="single-team mb-30">
                         <div class="team-img">
-                            <img src="assets/img/gallery/team3.png" alt="" />
+                            <img src="assets/img/gallery/team3.png" alt=""style={{ borderRadius: "50%"}}/>
                             <ul class="team-social">
                                 <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
                                 <li><a href="#"><i class="fab fa-twitter"></i></a></li>
@@ -82,15 +86,15 @@ const SpeakersTable = () => {
                             </ul>
                         </div>
                         <div class="team-caption team-caption2">
-                            <h3><a href="#">brown Rulsan</a></h3>
-                            <p> Co Founder</p>
+                            <h3 style={{color:"black"}}>brown Rulsan</h3>
+                            <p style={{color:"black"}}> Co Founder</p>
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-4 col-sm-6">
                     <div class="single-team mb-30">
                         <div class="team-img">
-                            <img src="assets/img/gallery/team4.png" alt="" />
+                            <img src="assets/img/gallery/team4.png" alt="" style={{ borderRadius: "50%"}}/>
                             <ul class="team-social">
                                 <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
                                 <li><a href="#"><i class="fab fa-twitter"></i></a></li>
@@ -98,15 +102,15 @@ const SpeakersTable = () => {
                             </ul>
                         </div>
                         <div class="team-caption team-caption2">
-                            <h3><a href="#">Jesscia brown</a></h3>
-                            <p> Co Founder</p>
+                            <h3 style={{color:"black"}}>Jesscia brown</h3>
+                            <p style={{color:"black"}}> Co Founder</p>
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-4 col-sm-6">
                     <div class="single-team mb-30">
                         <div class="team-img">
-                            <img src="assets/img/gallery/team5.png" alt="" />
+                            <img src="assets/img/gallery/team5.png" alt="" style={{ borderRadius: "50%"}}/>
                             <ul class="team-social">
                                 <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
                                 <li><a href="#"><i class="fab fa-twitter"></i></a></li>
@@ -114,15 +118,15 @@ const SpeakersTable = () => {
                             </ul>
                         </div>
                         <div class="team-caption team-caption2">
-                            <h3><a href="#">Jesscia brown</a></h3>
-                            <p> Co Founder</p>
+                            <h3 style={{color:"black"}}>Jesscia brown</h3>
+                            <p style={{color:"black"}}> Co Founder</p>
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-4 col-sm-6">
                     <div class="single-team mb-30">
                         <div class="team-img">
-                            <img src="assets/img/gallery/team6.png" alt="" />
+                            <img src="assets/img/gallery/team6.png" alt="" style={{ borderRadius: "50%"}}/>
                             <ul class="team-social">
                                 <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
                                 <li><a href="#"><i class="fab fa-twitter"></i></a></li>
@@ -130,15 +134,15 @@ const SpeakersTable = () => {
                             </ul>
                         </div>
                         <div class="team-caption team-caption2">
-                            <h3><a href="#">wndfert droit</a></h3>
-                            <p> Co Founder</p>
+                            <h3 style={{color:"black"}}>wndfert droit</h3>
+                            <p style={{color:"black"}}> Co Founder</p>
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-4 col-sm-6">
                     <div class="single-team mb-30">
                         <div class="team-img">
-                            <img src="assets/img/gallery/team2.png" alt="" /> 
+                            <img src="assets/img/gallery/team2.png" alt="" style={{ borderRadius: "50%"}}/> 
                             <ul class="team-social">
                                 <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
                                 <li><a href="#"><i class="fab fa-twitter"></i></a></li>
@@ -146,15 +150,15 @@ const SpeakersTable = () => {
                             </ul>
                         </div>
                         <div class="team-caption team-caption2">
-                            <h3><a href="#">Jesscia brown</a></h3>
-                            <p> Co Founder</p>
+                            <h3 style={{color:"black"}}>Jesscia brown</h3>
+                            <p style={{color:"black"}}> Co Founder</p>
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-4 col-sm-6">
                     <div class="single-team mb-30">
                         <div class="team-img">
-                            <img src="assets/img/gallery/team3.png" alt=""/>
+                            <img src="assets/img/gallery/team3.png" alt="" style={{ borderRadius: "50%"}}/>
                             <ul class="team-social">
                                 <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
                                 <li><a href="#"><i class="fab fa-twitter"></i></a></li>
@@ -162,8 +166,8 @@ const SpeakersTable = () => {
                             </ul>
                         </div>
                         <div class="team-caption team-caption2">
-                            <h3><a href="#">brown Rulsan</a></h3>
-                            <p> Co Founder</p>
+                            <h3 style={{color:"black"}}>brown Rulsan</h3>
+                            <p style={{color:"black"}}>Profeseur</p>
                         </div>
                     </div>
                 </div>

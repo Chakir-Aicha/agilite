@@ -17,5 +17,33 @@
 }
 .button_send{
     text-align: right !important;
+    color: #2e0e8c
    
 }
+.registration-form-container {
+   background-image: url(https://img.freepik.com/vecteurs-libre/vecteur-modele-cadre-courbe-bleue_53876-173307.jpg?size=626&ext=jpg&uid=R123836434&ga=GA1.1.576560934.1701447066&semt=ais);
+   background-repeat: no-repeat;
+   background-size: cover;
+   padding: 40px; 
+    border-radius: 10px;
+    margin-left: 150px;
+    margin-right: 150px;
+    margin-bottom: 150px;
+    padding-top: 90px;
+  }
+  
+  .input_formulaire {
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 15px;
+    font-size: 20px;
+    background-color: white;
+  }
+  .register{
+    font-size: 37px;
+    margin: 60px;
+    margin-left: 320px;
+    font-weight: 500;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-top: 80px;
+  }

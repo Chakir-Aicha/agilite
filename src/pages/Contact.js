@@ -11,14 +11,13 @@ const Contact = () => {
           <Navbar/>
             <br />
             <br />
-            <div
-        className="slider-area position-relative"
+            <div className="slider-area position-relative"
         style={{
           backgroundImage: `url(${backgroundImageUrl})`,
           backgroundRepeat: 'no-repeat',
           color: 'white',
           backgroundSize: 'cover',
-          height: '60vh',
+          height: '90vh',
           display: 'flex',
           justifyContent: 'center',
           alignItems: 'center',
@@ -84,9 +83,8 @@ const Contact = () => {
                 </div>
             </div>
 
-            <div className="embed-responsive embed-responsive-16by9 border">
-                <iframe className="embed-responsive-item w-100" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2301543.5775200226!2d-5.318625646506791!3d41.50764756345457!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd417e88e75ac24d%3A0xd79b7fd26d75d4e8!2sPol%C3%ADgono%20Industrial%20Sur%2C%20C.%20del%20Platino%2C%2082%2C%2028770%20Colmenar%20Viejo%2C%20Madrid%2C%20Espagne!5e0!3m2!1sfr!2sma!4v1689255367681!5m2!1sfr!2sma" width={"600"} height={"450"} allowFullScreen="" loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe>
-            </div>
+            <div className="embed-responsive embed-responsive-16by9 border" style={{height:"60vh"}}>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3396.609014184722!2d-8.02285522535889!3d31.64455394099782!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xdafee9eb5090999%3A0x2dca05e37a64f83b!2sFacult%C3%A9%20des%20Sciences%20et%20Techniques!5e0!3m2!1sfr!2sma!4v1704995474512!5m2!1sfr!2sma" width="600" height="450" style={{border:0, allowfullscreen:"" ,loading:"lazy" ,referrerpolicy:"no-referrer-when-downgrade"}}></iframe>            </div>
             <Footer/>
         </div>
     );

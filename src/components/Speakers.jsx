@@ -3,7 +3,7 @@ const Speakers = () => {
   return (
 
     <>
-    <br />   <br />  
+    <br /><br />  
     <div className="row">
                 <div className="col-lg-12">
                     <div className="section-title">
@@ -21,7 +21,7 @@ const Speakers = () => {
                     <div class="section-tittle section-tittle2 mb-50">
                        
                         <p>There arge many variations ohf passages of sorem gpsum ilable, but the majority have suffered alteration in.</p>
-                        <a href="#" class="btn white-btn mt-30">View Spackert</a>
+                        <a href="/keynotespeakers" class="btn white-btn mt-30">View Spackers</a>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-4 col-sm-6">
@@ -35,7 +35,7 @@ const Speakers = () => {
                             </ul>
                         </div>
                         <div class="team-caption">
-                            <h3><a href="#">Jesscia brown</a></h3>
+                            <h3 style={{color:"white"}} >Jesscia brown</h3>
                             <p> Co Founder</p>
                         </div>
                     </div>
@@ -51,7 +51,7 @@ const Speakers = () => {
                             </ul>
                         </div>
                         <div class="team-caption">
-                            <h3><a href="#">Jesscia brown</a></h3>
+                            <h3 style={{color:"white"}} >Jesscia brown</h3>
                             <p> Co Founder</p>
                         </div>
                     </div>
@@ -67,7 +67,7 @@ const Speakers = () => {
                             </ul>
                         </div>
                         <div class="team-caption">
-                            <h3><a href="#">brown Rulsan</a></h3>
+                            <h3 style={{color:"white"}}  >brown Rulsan</h3>
                             <p> Co Founder</p>
                         </div>
                     </div>
@@ -83,7 +83,7 @@ const Speakers = () => {
                             </ul>
                         </div>
                         <div class="team-caption">
-                            <h3><a href="#">Jesscia brown</a></h3>
+                            <h3 style={{color:"white"}} >Jesscia brown</h3>
                             <p> Co Founder</p>
                         </div>
                     </div>
@@ -99,7 +99,7 @@ const Speakers = () => {
                             </ul>
                         </div>
                         <div class="team-caption">
-                            <h3><a href="#">Jesscia brown</a></h3>
+                            <h3 style={{color:"white"}} >Jesscia brown</h3>
                             <p> Co Founder</p>
                         </div>
                     </div>
@@ -115,7 +115,7 @@ const Speakers = () => {
                             </ul>
                         </div>
                         <div class="team-caption">
-                            <h3><a href="#">wndfert droit</a></h3>
+                            <h3 style={{color:"white"}} >wndfert droit</h3>
                             <p> Co Founder</p>
                         </div>
                     </div>

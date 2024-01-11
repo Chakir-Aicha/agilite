@@ -92,6 +92,9 @@ const Registration = () => {
   return (
     <>
       <Header />
+      <br/>
+      <br/>
+
       <div
         className="slider-area position-relative"
         style={{
@@ -99,12 +102,15 @@ const Registration = () => {
           backgroundRepeat: 'no-repeat',
           color: 'white',
           backgroundSize: 'cover',
-          height: '60vh',
+          height: '90vh',
           display: 'flex',
           justifyContent: 'center',
           alignItems: 'center',
         }}
       >
+        <br/>
+        <br/>
+      <br/>
         <div className="container">
           <div className="row">
             <div className="col-xl-8 col-lg-8 col-md-9 col-sm-10">
@@ -115,8 +121,8 @@ const Registration = () => {
           </div>
         </div>
       </div>
-         
-      <div className="container mt-5">
+      <p className="register">fill out the form below with your information :</p>
+      <div className="registration-form-container">
         <form
           className="form-contact contact_form"
           action="contact_process.php"
@@ -125,7 +131,7 @@ const Registration = () => {
           noValidate="novalidate"
           onSubmit={handleSubmit}
         >
-          <div className="row">
+          <div className="row" style={{marginLeft:"60px",marginRight:"60px"}}>
             <div className="col-6">
               <div className="form-group">
                 <input
@@ -155,7 +161,7 @@ const Registration = () => {
               </div>
           </div>
          </div>
-          <div className="row">
+          <div className="row"style={{marginLeft:"60px",marginRight:"60px"}}>
           <div className="col-6">
               <div className="form-group">
                 <input
@@ -185,7 +191,7 @@ const Registration = () => {
               </div>
           </div>
           </div>
-          <div className="row">
+          <div className="row" style={{marginLeft:"60px",marginRight:"60px"}}>
             <div className="col-md-6">
               <select name="select" className="input_formulaire" id="select"  onChange={handleSelectChange} style={{ width: "100%", padding: "15px" }}>
                 <option value="" selected>-- selectionner votre catégorie --</option>
@@ -215,13 +221,14 @@ const Registration = () => {
             </div>
           )}
 
-          <div className="form-group mt-3 button_send">
+          <div className="form-group mt-3 button_send" style={{marginRight:"70px"}}>
             <button type="submit" className="button button-contactForm boxed-btn " style={{ borderRadius: "8px"}} >
               Send
             </button>
           </div>
         </form>
       </div>
+     
       <Footer />
     </>
   );

@@ -6,15 +6,14 @@ const Venue = () => {
     const lat = 31.68338067878764;
     const lon = -7.99383458895613;
 
-  
-
     const backgroundImageUrl = 'https://global.ariseplay.com/amg/www.thisdaylive.com/uploads/ARTIFICIAL-INTELLIGENCE.jpg';
 
     return (
         <>
    <Header />
 
-
+<br/>
+<br/>
 <div
         className="slider-area position-relative"
         style={{
@@ -22,7 +21,7 @@ const Venue = () => {
           backgroundRepeat: 'no-repeat',
           color: 'white',
           backgroundSize: 'cover',
-          height: '60vh',
+          height: '90vh',
           display: 'flex',
           justifyContent: 'center',
           alignItems: 'center',
@@ -38,27 +37,12 @@ const Venue = () => {
           </div>
         </div>
       </div>
-         
-          
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+        
       <br /><br /><br /><br />
       <p style={{ textAlign: 'center' }}>
-  <span style={{ fontSize: 'medium' }}>
-    <span className="LrzXr">
-      <img style={{width:'70%'}}  title="venue" src="https://iwssai23.sciencesconf.org/data/pages/Venue.png" alt="venue" /><br />
+      <span style={{ fontSize: 'medium' }}>
+      <span className="LrzXr">
+      <img style={{width:'80%'}}  title="venue" src="https://iwssai23.sciencesconf.org/data/pages/Venue.png" alt="venue" /><br />
     </span>
   </span>
 </p>
@@ -67,7 +51,7 @@ const Venue = () => {
 <p style={{marginLeft:'600px'}}><span style={{fontSize: 'large'}}><strong style={{textAlign: 'center'}}>Marrakesh, Morocco</strong></span></p>
 <br />
 
-<p style={{textAlign: 'center'}}><strong>&nbsp;<img style={{width:'70%'}} title="kech" src="https://iwssai23.sciencesconf.org/data/pages/KechSite_1.png" alt="kech" /></strong></p>
+<p style={{textAlign: 'center'}}><strong>&nbsp;<img style={{width:'80%'}} title="kech" src="https://iwssai23.sciencesconf.org/data/pages/KechSite_1.png" alt="kech" /></strong></p>
 
 
 

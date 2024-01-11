@@ -62,10 +62,10 @@ const CarouselSlider = () => {
               <div className="single-slider slider-height d-flex align-items-center">
                 <div className="container">
                   <div className="row">
-                    <div className="col-xl-8 col-lg-8 col-md-9 col-sm-10">
+                    <div className="">
                       <div className="hero__caption1">
                         <h1 className='titre'>{typedTitle}</h1>
-                        <div className='btn btnn1' > <Link to="/contact"  >Contact us</Link> </div>
+                        <div className='btn btnnn'> <Link to="/contact"  >Contact us</Link> </div>
                       </div>
                     </div>
                   </div>
@@ -73,7 +73,7 @@ const CarouselSlider = () => {
               </div>
             </div>
 
-            <div className="counter-section1 d-none d-sm-block">
+            <div className="">
               <div className="cd-timer1" id="countdown">
                 <div style={{ display: 'inline-block', margin: '0 5px' }}>
                   <span className="cd-item">{timeLeft.days}:</span>

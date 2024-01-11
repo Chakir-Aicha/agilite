@@ -13,6 +13,8 @@ function home() {
     <div>
         <Navbar/>
         <Slider/>
+        <br/>
+        <br/>
         <About/>
         <Livre/>
         <Speakers/>
